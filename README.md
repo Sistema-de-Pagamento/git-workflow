@@ -43,4 +43,4 @@ git add .
 git commit -m "caso você queira escrever uma mensagem, escreva aqui"
 git push origin nome-da-sua-branch
 ```
-Por fim, para mandar sua branch para a branch master, deve-se realizar o merge
+Por fim, para mandar sua branch para a branch master, deve-se realizar o **MERGE REQUEST** e esperar pelo code review.
