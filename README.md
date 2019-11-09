@@ -35,4 +35,12 @@ Uma vez criada a sua branch, e o projeto estar na branch criada, pode-se realiza
 ## Terminando o desenvolvimento
 
 Ao terminar o desenvolvimento, deve-se enviar sua implementação para o repositório.
-Para isso, primeiro deve-se realizar adicionar o projeto com as modificações, isto prepára-o para o commit
+Para isso, primeiro deve-se adicionar o projeto com as modificações, que faz a branch local reconhecer as alterações. Em seguida, realizar o commit para lançar para a branch local, e, por fom fazer o push para mandar da sua branch local para a remota. Na pasta do seu projeto, faça isso
+OBS: certifique-se que você está na sua branch e não na master.
+
+```
+git add .
+git commit -m "caso você queira escrever uma mensagem, escreva aqui"
+git push origin nome-da-sua-branch
+```
+Por fim, para mandar sua branch para a branch master, deve-se realizar o merge
