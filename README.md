@@ -43,4 +43,7 @@ git add .
 git commit -m "caso você queira escrever uma mensagem, escreva aqui"
 git push origin nome-da-sua-branch
 ```
+## Realização de testes
+
+Para realizar os testes, deve-se fazer o pull request para a branch de homologacao, para não termina-lá.
 Por fim, para mandar sua branch para a branch master, deve-se realizar o **PULL REQUEST** e esperar pelo code review.
